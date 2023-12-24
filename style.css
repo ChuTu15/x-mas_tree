@@ -1911,3 +1911,24 @@ body ul:nth-child(2) li:nth-child(4n+3):after {
     top: 100%;
   }
 }
+
+.merry-christmas {
+  font-family: 'Pacifico', cursive;
+  color: #fffcf9;
+  margin-top: 20px;
+  text-align: center;
+  animation: fadeIn 3s ease-in-out;
+  text-anchor:middle;
+  font-size:3em;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
